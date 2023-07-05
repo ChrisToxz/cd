@@ -24,10 +24,6 @@
                         "type": "fix",
                         "section": "\uD83D\uDC1B Bug Fixes"
                     },
-                    {
-                        "type": "chore",
-                        "section": "⚙\uFE0F Chores"
-                    },
                     {}
                 ]
             },
