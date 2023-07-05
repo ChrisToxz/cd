@@ -13,22 +13,24 @@
     },
     "plugins": {
         "@release-it/conventional-changelog": {
-            "preset": "conventionalcommits",
-            "types": [
-                {
-                    "type": "feat",
-                    "section": "\uD83D\uDE80 Features"
-                },
-                {
-                    "type": "fix",
-                    "section": "\uD83D\uDC1B Bug Fixes"
-                },
-                {
-                    "type": "chore",
-                    "section": "⚙\uFE0F Chores"
-                },
-                {}
-            ],
+            "preset": {
+                "name": "conventionalcommits",
+                "types": [
+                    {
+                        "type": "feat",
+                        "section": "\uD83D\uDE80 Features"
+                    },
+                    {
+                        "type": "fix",
+                        "section": "\uD83D\uDC1B Bug Fixess"
+                    },
+                    {
+                        "type": "chore",
+                        "section": "⚙\uFE0F Chores"
+                    },
+                    {}
+                ]
+            },
             "infile": "CHANGELOG.md",
             "parserOpts": {
                 "mergePattern": "^Merge pull request #(\\d+) from (.*)$"
