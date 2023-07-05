@@ -1,5 +1,12 @@
 
 
+## [0.0.4](https://github.com/ChrisToxz/cd/compare/0.0.3...0.0.4) (2023-07-05)
+
+
+### 🐛 Bug Fixes
+
+* Typo in release-it config ([#1](https://github.com/ChrisToxz/cd/issues/1)) ([53d5464](https://github.com/ChrisToxz/cd/commit/53d546464d02753c6095284d9feefea04fc3be5c))
+
 ## [0.0.3](https://github.com/ChrisToxz/cd/compare/0.0.2...0.0.3) (2023-07-05)
 
 
