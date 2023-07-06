@@ -1,5 +1,12 @@
 
 
+## [0.0.5](https://github.com/ChrisToxz/cd/compare/0.0.4...0.0.5) (2023-07-06)
+
+
+### 🐛 Bug Fixes
+
+* Random changes ([#3](https://github.com/ChrisToxz/cd/issues/3)) ([8db3b5a](https://github.com/ChrisToxz/cd/commit/8db3b5aceb69fd42c1e698d23b49f3b31e11b46d))
+
 ## [0.0.4](https://github.com/ChrisToxz/cd/compare/0.0.3...0.0.4) (2023-07-05)
 
 
