@@ -1,5 +1,12 @@
 
 
+## [0.1.1](https://github.com/ChrisToxz/cd/compare/0.1.0...0.1.1) (2023-07-12)
+
+
+### 🐛 Bug Fixes
+
+* Bug fixed [#31](https://github.com/ChrisToxz/cd/issues/31) ([f5a9753](https://github.com/ChrisToxz/cd/commit/f5a975342f9889c9c4207001fec4c5f6a8679790))
+
 ## [0.1.0](https://github.com/ChrisToxz/cd/compare/0.0.5...0.1.0) (2023-07-12)
 
 
