@@ -1,5 +1,12 @@
 
 
+## [0.1.0](https://github.com/ChrisToxz/cd/compare/0.0.5...0.1.0) (2023-07-12)
+
+
+### 🚀 Features
+
+* Add a new test file ([bf2168f](https://github.com/ChrisToxz/cd/commit/bf2168f783ae2ddbe80dfd0a76d6b69c3139908a))
+
 ## [0.0.5](https://github.com/ChrisToxz/cd/compare/0.0.4...0.0.5) (2023-07-06)
 
 
