@@ -1,5 +1,7 @@
 
 
+## [0.1.11](https://github.com/ChrisToxz/cd/compare/0.1.10...0.1.11) (2023-07-16)
+
 ## [0.1.10](https://github.com/ChrisToxz/cd/compare/0.1.9...0.1.10) (2023-07-16)
 
 
