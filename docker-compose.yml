@@ -23,7 +23,6 @@ services:
         #            - ./teststorage/logs:/var/www/html/storage/logs # Logs
         networks:
             - test_network
-
 volumes:
     dbdata:
 
