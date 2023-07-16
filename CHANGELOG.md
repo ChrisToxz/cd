@@ -1,5 +1,12 @@
 
 
+## [0.1.10](https://github.com/ChrisToxz/cd/compare/0.1.9...0.1.10) (2023-07-16)
+
+
+### 🐛 Bug Fixes
+
+* **build:** Dockerfile context root ([d645539](https://github.com/ChrisToxz/cd/commit/d645539a3117aca357852096b203ad920a90f713))
+
 ## [0.1.9](https://github.com/ChrisToxz/cd/compare/0.1.8...0.1.9) (2023-07-16)
 
 ## [0.1.8](https://github.com/ChrisToxz/cd/compare/0.1.7...0.1.8) (2023-07-16)
