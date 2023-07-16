@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 'latest'
-      - run: npm ci
+      - run: npm install --no-interaction
       - run: npm run build
 
       - name: Set up Docker Buildx
