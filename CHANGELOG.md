@@ -1,5 +1,12 @@
 
 
+## [0.1.2](https://github.com/ChrisToxz/cd/compare/0.1.1...0.1.2) (2023-07-12)
+
+
+### 🐛 Bug Fixes
+
+* removed typo ([9b8f94d](https://github.com/ChrisToxz/cd/commit/9b8f94d48a10f146d27996c042bface55e377a20))
+
 ## [0.1.1](https://github.com/ChrisToxz/cd/compare/0.1.0...0.1.1) (2023-07-12)
 
 
