@@ -7,7 +7,7 @@ services:
         image: citest
         build:
             context: ./
-            dockerfile: ./deploy/Dockerfile
+            dockerfile: Dockerfile
         ports:
             - 80:80
             - 443:443
