@@ -39,7 +39,7 @@ jobs:
       - name: Build and push image to Docker Hub
         uses: docker/build-push-action@v3
         with:
-          context: ./deploy
+          context: ./
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
