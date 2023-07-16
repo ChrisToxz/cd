@@ -24,7 +24,7 @@ jobs:
 
       - id: docker-image-name
         name: Set Docker Image name
-        run: echo "DOCKER_IMAGE=$(echo ${{ secrets.DOCKER_USERNAME }}/test" >> $GITHUB_ENV
+        run: echo "DOCKER_IMAGE=$(echo ${{ secrets.DOCKER_USERNAME }})/test" >> $GITHUB_ENV
       #        run: echo "DOCKER_IMAGE=$(echo ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}" >> $GITHUB_ENV
 
       - name: Extract metadata (tags, labels) for Docker
