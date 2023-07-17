@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
 COPY --chmod=755 ./deploy/s6-overlay/ /etc/s6-overlay/
 COPY --chown=1000:1000 . /var/www/html
 
-RUN composer install --no-interaction --optimize-autoloader --no-dev
+RUN composer install --no-interaction --optimize-autoloader --no-dev && mkdir -p storage/logs && chown -R webuser:webgroup /var/www/html
 #RUN composer install --no-interaction --optimize-autoloader
 
 EXPOSE 80
