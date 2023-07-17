@@ -1,5 +1,12 @@
 
 
+## [0.1.20](https://github.com/ChrisToxz/cd/compare/0.1.19...0.1.20) (2023-07-17)
+
+
+### 💚 Builds
+
+* **fix:** Setup automations ([b97ec48](https://github.com/ChrisToxz/cd/commit/b97ec4821ec7f5035aece2fb6be7d59418037566))
+
 ## [0.1.19](https://github.com/ChrisToxz/cd/compare/0.1.18...0.1.19) (2023-07-17)
 
 ## [0.1.18](https://github.com/ChrisToxz/cd/compare/0.1.17...0.1.18) (2023-07-17)
