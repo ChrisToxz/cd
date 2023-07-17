@@ -7,7 +7,7 @@ echo "---"
 echo "Setting up Slipstream"
 echo "---"
 
-if [ ! -f /config/.env ]; then
+if [ ! -f /.env ]; then
     echo "Environment file not found, creating..."
     s6-setuidgid webuser cp $WEBUSER_HOME/.env.example $WEBUSER_HOME/.env
     echo "✅  Environment file created."
