@@ -1,5 +1,12 @@
 
 
+## [0.1.17](https://github.com/ChrisToxz/cd/compare/0.1.16...0.1.17) (2023-07-17)
+
+
+### 🐛 Bug Fixes
+
+* **build:** Missing build scripts ([afba087](https://github.com/ChrisToxz/cd/commit/afba087a9c42af6bd762345071b43d56b7fc64e0))
+
 ## [0.1.16](https://github.com/ChrisToxz/cd/compare/0.1.15...0.1.16) (2023-07-17)
 
 ## [0.1.15](https://github.com/ChrisToxz/cd/compare/0.1.14...0.1.15) (2023-07-16)
