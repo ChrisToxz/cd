@@ -3,6 +3,27 @@
 # Exit on error
 set -e
 
+echo "---"
+echo "Setting up Slipstream"
+echo "---"
+
+if [ ! -f /config/.env ]; then
+    echo "Environment file not found, creating..."
+    s6-setuidgid webuser cp $WEBUSER_HOME/.env.example $WEBUSER_HOME/.env
+    echo "✅  Environment file created."
+else
+    echo "✅  Environment file exists."
+fi
+
+# Check for app key
+if grep -E "APP_KEY=[0-9A-Za-z:+\/=]{1,}" $WEBUSER_HOME/.env > /dev/null; then
+    echo "✅  App key exists"
+else
+    echo "⏳  Generating app key..."
+    s6-setuidgid webuser php $WEBUSER_HOME/artisan key:generate --no-ansi -q
+    echo "✅  App key generated."
+fi
+
 # Check to see if an Artisan file exists and assume it means Laravel is configured.
 if [ -f $WEBUSER_HOME/artisan ] && [ ${AUTORUN_ENABLED:="true"} == "true" ]; then
         echo "🏃‍♂️ Checking for Laravel automations..."
