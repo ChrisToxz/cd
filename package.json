@@ -2,7 +2,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "release": "release-it"
+      "dev": "vite",
+      "build": "vite build",
+      "release": "release-it"
   },
   "devDependencies": {
     "release-it": "^16.0.0",
