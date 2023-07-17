@@ -1,5 +1,12 @@
 
 
+## [0.1.18](https://github.com/ChrisToxz/cd/compare/0.1.17...0.1.18) (2023-07-17)
+
+
+### 🐛 Bug Fixes
+
+* **build:** Dockerfile permissions ([b551e70](https://github.com/ChrisToxz/cd/commit/b551e70448e29b4d88bbd9a2bd648ae912833c6a))
+
 ## [0.1.17](https://github.com/ChrisToxz/cd/compare/0.1.16...0.1.17) (2023-07-17)
 
 
